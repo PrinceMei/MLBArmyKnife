@@ -7,31 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		231580D41CC0B94A00E1F031 /* MLBArmyKnife.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 231580D31CC0B94A00E1F031 /* MLBArmyKnife.h */; };
-		231580D61CC0B94A00E1F031 /* MLBArmyKnife.m in Sources */ = {isa = PBXBuildFile; fileRef = 231580D51CC0B94A00E1F031 /* MLBArmyKnife.m */; };
+		23AF69D31CC481B400A48DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF69D21CC481B400A48DDC /* main.m */; };
+		23AF69D61CC481B400A48DDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF69D51CC481B400A48DDC /* AppDelegate.m */; };
+		23AF69D91CC481B400A48DDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF69D81CC481B400A48DDC /* ViewController.m */; };
+		23AF69DC1CC481B400A48DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AF69DA1CC481B400A48DDC /* Main.storyboard */; };
+		23AF69DE1CC481B400A48DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23AF69DD1CC481B400A48DDC /* Assets.xcassets */; };
+		23AF69E11CC481B400A48DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AF69DF1CC481B400A48DDC /* LaunchScreen.storyboard */; };
+		23AF69EC1CC481B400A48DDC /* MLBArmyKnifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF69EB1CC481B400A48DDC /* MLBArmyKnifeTests.m */; };
+		23AF69F71CC481B400A48DDC /* MLBArmyKnifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF69F61CC481B400A48DDC /* MLBArmyKnifeUITests.m */; };
+		23AF6A0F1CC4822300A48DDC /* NSString+MLBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF6A071CC4822300A48DDC /* NSString+MLBUtilities.m */; };
+		23AF6A101CC4822300A48DDC /* UIColor+MLBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF6A091CC4822300A48DDC /* UIColor+MLBUtilities.m */; };
+		23AF6A111CC4822300A48DDC /* UIImage+MLBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF6A0B1CC4822300A48DDC /* UIImage+MLBUtilities.m */; };
+		23AF6A121CC4822300A48DDC /* MLBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF6A0E1CC4822300A48DDC /* MLBUtilities.m */; };
+		23AF6A161CC48BE000A48DDC /* UIView+MLBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF6A151CC48BE000A48DDC /* UIView+MLBUtilities.m */; };
+		23AF6A191CC48CB900A48DDC /* UIImageView+MLBSDImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF6A181CC48CB900A48DDC /* UIImageView+MLBSDImageLoader.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		231580CE1CC0B94A00E1F031 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				231580D41CC0B94A00E1F031 /* MLBArmyKnife.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
+/* Begin PBXContainerItemProxy section */
+		23AF69E81CC481B400A48DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23AF69C61CC481B400A48DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23AF69CD1CC481B400A48DDC;
+			remoteInfo = MLBArmyKnife;
 		};
-/* End PBXCopyFilesBuildPhase section */
+		23AF69F31CC481B400A48DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23AF69C61CC481B400A48DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23AF69CD1CC481B400A48DDC;
+			remoteInfo = MLBArmyKnife;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		231580D01CC0B94A00E1F031 /* libMLBArmyKnife.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMLBArmyKnife.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		231580D31CC0B94A00E1F031 /* MLBArmyKnife.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLBArmyKnife.h; sourceTree = "<group>"; };
-		231580D51CC0B94A00E1F031 /* MLBArmyKnife.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLBArmyKnife.m; sourceTree = "<group>"; };
+		23AF69CE1CC481B400A48DDC /* MLBArmyKnife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLBArmyKnife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AF69D21CC481B400A48DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23AF69D41CC481B400A48DDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23AF69D51CC481B400A48DDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23AF69D71CC481B400A48DDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		23AF69D81CC481B400A48DDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23AF69DB1CC481B400A48DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23AF69DD1CC481B400A48DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23AF69E01CC481B400A48DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23AF69E21CC481B400A48DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23AF69E71CC481B400A48DDC /* MLBArmyKnifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLBArmyKnifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AF69EB1CC481B400A48DDC /* MLBArmyKnifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLBArmyKnifeTests.m; sourceTree = "<group>"; };
+		23AF69ED1CC481B400A48DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23AF69F21CC481B400A48DDC /* MLBArmyKnifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLBArmyKnifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AF69F61CC481B400A48DDC /* MLBArmyKnifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLBArmyKnifeUITests.m; sourceTree = "<group>"; };
+		23AF69F81CC481B400A48DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23AF6A061CC4822300A48DDC /* NSString+MLBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MLBUtilities.h"; sourceTree = "<group>"; };
+		23AF6A071CC4822300A48DDC /* NSString+MLBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MLBUtilities.m"; sourceTree = "<group>"; };
+		23AF6A081CC4822300A48DDC /* UIColor+MLBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MLBUtilities.h"; sourceTree = "<group>"; };
+		23AF6A091CC4822300A48DDC /* UIColor+MLBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MLBUtilities.m"; sourceTree = "<group>"; };
+		23AF6A0A1CC4822300A48DDC /* UIImage+MLBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MLBUtilities.h"; sourceTree = "<group>"; };
+		23AF6A0B1CC4822300A48DDC /* UIImage+MLBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MLBUtilities.m"; sourceTree = "<group>"; };
+		23AF6A0C1CC4822300A48DDC /* MLBArmyKnife.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBArmyKnife.h; sourceTree = "<group>"; };
+		23AF6A0D1CC4822300A48DDC /* MLBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBUtilities.h; sourceTree = "<group>"; };
+		23AF6A0E1CC4822300A48DDC /* MLBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBUtilities.m; sourceTree = "<group>"; };
+		23AF6A131CC483BA00A48DDC /* MLBMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBMacros.h; sourceTree = "<group>"; };
+		23AF6A141CC48BE000A48DDC /* UIView+MLBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MLBUtilities.h"; sourceTree = "<group>"; };
+		23AF6A151CC48BE000A48DDC /* UIView+MLBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLBUtilities.m"; sourceTree = "<group>"; };
+		23AF6A171CC48CB900A48DDC /* UIImageView+MLBSDImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MLBSDImageLoader.h"; sourceTree = "<group>"; };
+		23AF6A181CC48CB900A48DDC /* UIImageView+MLBSDImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MLBSDImageLoader.m"; sourceTree = "<group>"; };
+		23AF6A1A1CC48D6E00A48DDC /* MLBArmyKnife.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBArmyKnife.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		231580CD1CC0B94A00E1F031 /* Frameworks */ = {
+		23AF69CB1CC481B400A48DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23AF69E41CC481B400A48DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23AF69EF1CC481B400A48DDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,41 +99,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		231580C71CC0B94A00E1F031 = {
+		23AF69C51CC481B400A48DDC = {
 			isa = PBXGroup;
 			children = (
-				231580D21CC0B94A00E1F031 /* MLBArmyKnife */,
-				231580D11CC0B94A00E1F031 /* Products */,
+				23AF69D01CC481B400A48DDC /* MLBArmyKnife */,
+				23AF69EA1CC481B400A48DDC /* MLBArmyKnifeTests */,
+				23AF69F51CC481B400A48DDC /* MLBArmyKnifeUITests */,
+				23AF69CF1CC481B400A48DDC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		231580D11CC0B94A00E1F031 /* Products */ = {
+		23AF69CF1CC481B400A48DDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				231580D01CC0B94A00E1F031 /* libMLBArmyKnife.a */,
+				23AF69CE1CC481B400A48DDC /* MLBArmyKnife.app */,
+				23AF69E71CC481B400A48DDC /* MLBArmyKnifeTests.xctest */,
+				23AF69F21CC481B400A48DDC /* MLBArmyKnifeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		231580D21CC0B94A00E1F031 /* MLBArmyKnife */ = {
+		23AF69D01CC481B400A48DDC /* MLBArmyKnife */ = {
 			isa = PBXGroup;
 			children = (
-				231580D31CC0B94A00E1F031 /* MLBArmyKnife.h */,
-				231580D51CC0B94A00E1F031 /* MLBArmyKnife.m */,
+				23AF6A041CC4822300A48DDC /* MLBArmyKnife */,
+				23AF69D41CC481B400A48DDC /* AppDelegate.h */,
+				23AF69D51CC481B400A48DDC /* AppDelegate.m */,
+				23AF69D71CC481B400A48DDC /* ViewController.h */,
+				23AF69D81CC481B400A48DDC /* ViewController.m */,
+				23AF69DA1CC481B400A48DDC /* Main.storyboard */,
+				23AF69DD1CC481B400A48DDC /* Assets.xcassets */,
+				23AF69DF1CC481B400A48DDC /* LaunchScreen.storyboard */,
+				23AF69D11CC481B400A48DDC /* Supporting Files */,
 			);
 			path = MLBArmyKnife;
+			sourceTree = "<group>";
+		};
+		23AF69D11CC481B400A48DDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23AF69E21CC481B400A48DDC /* Info.plist */,
+				23AF69D21CC481B400A48DDC /* main.m */,
+				23AF6A1A1CC48D6E00A48DDC /* MLBArmyKnife.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23AF69EA1CC481B400A48DDC /* MLBArmyKnifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				23AF69EB1CC481B400A48DDC /* MLBArmyKnifeTests.m */,
+				23AF69ED1CC481B400A48DDC /* Info.plist */,
+			);
+			path = MLBArmyKnifeTests;
+			sourceTree = "<group>";
+		};
+		23AF69F51CC481B400A48DDC /* MLBArmyKnifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23AF69F61CC481B400A48DDC /* MLBArmyKnifeUITests.m */,
+				23AF69F81CC481B400A48DDC /* Info.plist */,
+			);
+			path = MLBArmyKnifeUITests;
+			sourceTree = "<group>";
+		};
+		23AF6A041CC4822300A48DDC /* MLBArmyKnife */ = {
+			isa = PBXGroup;
+			children = (
+				23AF6A051CC4822300A48DDC /* Category */,
+				23AF6A0C1CC4822300A48DDC /* MLBArmyKnife.h */,
+				23AF6A0D1CC4822300A48DDC /* MLBUtilities.h */,
+				23AF6A0E1CC4822300A48DDC /* MLBUtilities.m */,
+				23AF6A131CC483BA00A48DDC /* MLBMacros.h */,
+			);
+			path = MLBArmyKnife;
+			sourceTree = "<group>";
+		};
+		23AF6A051CC4822300A48DDC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				23AF6A061CC4822300A48DDC /* NSString+MLBUtilities.h */,
+				23AF6A071CC4822300A48DDC /* NSString+MLBUtilities.m */,
+				23AF6A081CC4822300A48DDC /* UIColor+MLBUtilities.h */,
+				23AF6A091CC4822300A48DDC /* UIColor+MLBUtilities.m */,
+				23AF6A0A1CC4822300A48DDC /* UIImage+MLBUtilities.h */,
+				23AF6A0B1CC4822300A48DDC /* UIImage+MLBUtilities.m */,
+				23AF6A141CC48BE000A48DDC /* UIView+MLBUtilities.h */,
+				23AF6A151CC48BE000A48DDC /* UIView+MLBUtilities.m */,
+				23AF6A171CC48CB900A48DDC /* UIImageView+MLBSDImageLoader.h */,
+				23AF6A181CC48CB900A48DDC /* UIImageView+MLBSDImageLoader.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		231580CF1CC0B94A00E1F031 /* MLBArmyKnife */ = {
+		23AF69CD1CC481B400A48DDC /* MLBArmyKnife */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 231580D91CC0B94A00E1F031 /* Build configuration list for PBXNativeTarget "MLBArmyKnife" */;
+			buildConfigurationList = 23AF69FB1CC481B400A48DDC /* Build configuration list for PBXNativeTarget "MLBArmyKnife" */;
 			buildPhases = (
-				231580CC1CC0B94A00E1F031 /* Sources */,
-				231580CD1CC0B94A00E1F031 /* Frameworks */,
-				231580CE1CC0B94A00E1F031 /* CopyFiles */,
+				23AF69CA1CC481B400A48DDC /* Sources */,
+				23AF69CB1CC481B400A48DDC /* Frameworks */,
+				23AF69CC1CC481B400A48DDC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -83,53 +209,183 @@
 			);
 			name = MLBArmyKnife;
 			productName = MLBArmyKnife;
-			productReference = 231580D01CC0B94A00E1F031 /* libMLBArmyKnife.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 23AF69CE1CC481B400A48DDC /* MLBArmyKnife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23AF69E61CC481B400A48DDC /* MLBArmyKnifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23AF69FE1CC481B400A48DDC /* Build configuration list for PBXNativeTarget "MLBArmyKnifeTests" */;
+			buildPhases = (
+				23AF69E31CC481B400A48DDC /* Sources */,
+				23AF69E41CC481B400A48DDC /* Frameworks */,
+				23AF69E51CC481B400A48DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23AF69E91CC481B400A48DDC /* PBXTargetDependency */,
+			);
+			name = MLBArmyKnifeTests;
+			productName = MLBArmyKnifeTests;
+			productReference = 23AF69E71CC481B400A48DDC /* MLBArmyKnifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23AF69F11CC481B400A48DDC /* MLBArmyKnifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23AF6A011CC481B400A48DDC /* Build configuration list for PBXNativeTarget "MLBArmyKnifeUITests" */;
+			buildPhases = (
+				23AF69EE1CC481B400A48DDC /* Sources */,
+				23AF69EF1CC481B400A48DDC /* Frameworks */,
+				23AF69F01CC481B400A48DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23AF69F41CC481B400A48DDC /* PBXTargetDependency */,
+			);
+			name = MLBArmyKnifeUITests;
+			productName = MLBArmyKnifeUITests;
+			productReference = 23AF69F21CC481B400A48DDC /* MLBArmyKnifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		231580C81CC0B94A00E1F031 /* Project object */ = {
+		23AF69C61CC481B400A48DDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = meilbn;
 				TargetAttributes = {
-					231580CF1CC0B94A00E1F031 = {
+					23AF69CD1CC481B400A48DDC = {
 						CreatedOnToolsVersion = 7.3;
+					};
+					23AF69E61CC481B400A48DDC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 23AF69CD1CC481B400A48DDC;
+					};
+					23AF69F11CC481B400A48DDC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 23AF69CD1CC481B400A48DDC;
 					};
 				};
 			};
-			buildConfigurationList = 231580CB1CC0B94A00E1F031 /* Build configuration list for PBXProject "MLBArmyKnife" */;
+			buildConfigurationList = 23AF69C91CC481B400A48DDC /* Build configuration list for PBXProject "MLBArmyKnife" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 231580C71CC0B94A00E1F031;
-			productRefGroup = 231580D11CC0B94A00E1F031 /* Products */;
+			mainGroup = 23AF69C51CC481B400A48DDC;
+			productRefGroup = 23AF69CF1CC481B400A48DDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				231580CF1CC0B94A00E1F031 /* MLBArmyKnife */,
+				23AF69CD1CC481B400A48DDC /* MLBArmyKnife */,
+				23AF69E61CC481B400A48DDC /* MLBArmyKnifeTests */,
+				23AF69F11CC481B400A48DDC /* MLBArmyKnifeUITests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		23AF69CC1CC481B400A48DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AF69E11CC481B400A48DDC /* LaunchScreen.storyboard in Resources */,
+				23AF69DE1CC481B400A48DDC /* Assets.xcassets in Resources */,
+				23AF69DC1CC481B400A48DDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23AF69E51CC481B400A48DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23AF69F01CC481B400A48DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		231580CC1CC0B94A00E1F031 /* Sources */ = {
+		23AF69CA1CC481B400A48DDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				231580D61CC0B94A00E1F031 /* MLBArmyKnife.m in Sources */,
+				23AF6A101CC4822300A48DDC /* UIColor+MLBUtilities.m in Sources */,
+				23AF6A121CC4822300A48DDC /* MLBUtilities.m in Sources */,
+				23AF6A0F1CC4822300A48DDC /* NSString+MLBUtilities.m in Sources */,
+				23AF6A161CC48BE000A48DDC /* UIView+MLBUtilities.m in Sources */,
+				23AF6A111CC4822300A48DDC /* UIImage+MLBUtilities.m in Sources */,
+				23AF6A191CC48CB900A48DDC /* UIImageView+MLBSDImageLoader.m in Sources */,
+				23AF69D91CC481B400A48DDC /* ViewController.m in Sources */,
+				23AF69D61CC481B400A48DDC /* AppDelegate.m in Sources */,
+				23AF69D31CC481B400A48DDC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23AF69E31CC481B400A48DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AF69EC1CC481B400A48DDC /* MLBArmyKnifeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23AF69EE1CC481B400A48DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AF69F71CC481B400A48DDC /* MLBArmyKnifeUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		23AF69E91CC481B400A48DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23AF69CD1CC481B400A48DDC /* MLBArmyKnife */;
+			targetProxy = 23AF69E81CC481B400A48DDC /* PBXContainerItemProxy */;
+		};
+		23AF69F41CC481B400A48DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23AF69CD1CC481B400A48DDC /* MLBArmyKnife */;
+			targetProxy = 23AF69F31CC481B400A48DDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23AF69DA1CC481B400A48DDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23AF69DB1CC481B400A48DDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23AF69DF1CC481B400A48DDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23AF69E01CC481B400A48DDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		231580D71CC0B94A00E1F031 /* Debug */ = {
+		23AF69F91CC481B400A48DDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -166,14 +422,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		231580D81CC0B94A00E1F031 /* Release */ = {
+		23AF69FA1CC481B400A48DDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -204,52 +460,120 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		231580DA1CC0B94A00E1F031 /* Debug */ = {
+		23AF69FC1CC481B400A48DDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MLBArmyKnife/MLBArmyKnife.pch";
+				INFOPLIST_FILE = MLBArmyKnife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meilbn.MLBArmyKnife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		231580DB1CC0B94A00E1F031 /* Release */ = {
+		23AF69FD1CC481B400A48DDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MLBArmyKnife/MLBArmyKnife.pch";
+				INFOPLIST_FILE = MLBArmyKnife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meilbn.MLBArmyKnife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		23AF69FF1CC481B400A48DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MLBArmyKnifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meilbn.MLBArmyKnifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLBArmyKnife.app/MLBArmyKnife";
+			};
+			name = Debug;
+		};
+		23AF6A001CC481B400A48DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MLBArmyKnifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meilbn.MLBArmyKnifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLBArmyKnife.app/MLBArmyKnife";
+			};
+			name = Release;
+		};
+		23AF6A021CC481B400A48DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MLBArmyKnifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meilbn.MLBArmyKnifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MLBArmyKnife;
+			};
+			name = Debug;
+		};
+		23AF6A031CC481B400A48DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MLBArmyKnifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meilbn.MLBArmyKnifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MLBArmyKnife;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		231580CB1CC0B94A00E1F031 /* Build configuration list for PBXProject "MLBArmyKnife" */ = {
+		23AF69C91CC481B400A48DDC /* Build configuration list for PBXProject "MLBArmyKnife" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				231580D71CC0B94A00E1F031 /* Debug */,
-				231580D81CC0B94A00E1F031 /* Release */,
+				23AF69F91CC481B400A48DDC /* Debug */,
+				23AF69FA1CC481B400A48DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		231580D91CC0B94A00E1F031 /* Build configuration list for PBXNativeTarget "MLBArmyKnife" */ = {
+		23AF69FB1CC481B400A48DDC /* Build configuration list for PBXNativeTarget "MLBArmyKnife" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				231580DA1CC0B94A00E1F031 /* Debug */,
-				231580DB1CC0B94A00E1F031 /* Release */,
+				23AF69FC1CC481B400A48DDC /* Debug */,
+				23AF69FD1CC481B400A48DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23AF69FE1CC481B400A48DDC /* Build configuration list for PBXNativeTarget "MLBArmyKnifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23AF69FF1CC481B400A48DDC /* Debug */,
+				23AF6A001CC481B400A48DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23AF6A011CC481B400A48DDC /* Build configuration list for PBXNativeTarget "MLBArmyKnifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23AF6A021CC481B400A48DDC /* Debug */,
+				23AF6A031CC481B400A48DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 231580C81CC0B94A00E1F031 /* Project object */;
+	rootObject = 23AF69C61CC481B400A48DDC /* Project object */;
 }
