@@ -18,12 +18,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
+	
+	UIButton *button = [MLBUIFactory buttonWithTitle:@"Button" target:self action:@selector(buttonClicked:)];
+	button.frame = CGRectMake(0, 0, 100, 100);
+	button.backgroundColor = [UIColor redColor];
+	button.center = self.view.center;
+	button.key = @"button";
+	[self.view addSubview:button];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)buttonClicked:(UIButton *)sender {
+	NSLog(@"sender.key = %@", sender.key);
 }
 
 @end

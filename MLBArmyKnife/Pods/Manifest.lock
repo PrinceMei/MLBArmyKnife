@@ -1,0 +1,27 @@
+PODS:
+  - Masonry (1.0.1)
+  - MJRefresh (3.1.12)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - Masonry
+  - MJRefresh (from `https://github.com/CoderMJLee/MJRefresh.git`)
+  - SDWebImage
+
+EXTERNAL SOURCES:
+  MJRefresh:
+    :git: https://github.com/CoderMJLee/MJRefresh.git
+
+CHECKOUT OPTIONS:
+  MJRefresh:
+    :commit: c1a36504f20f18cb90162f4b9f81729669a8ed39
+    :git: https://github.com/CoderMJLee/MJRefresh.git
+
+SPEC CHECKSUMS:
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+COCOAPODS: 0.39.0

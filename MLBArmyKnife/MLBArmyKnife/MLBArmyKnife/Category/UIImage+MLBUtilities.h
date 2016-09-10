@@ -12,6 +12,8 @@
 
 @interface UIImage (MLBUtilities)
 
+#pragma mark - Class Methods
+
 /**
  *  根据给定的颜色生成一张图片
  *
@@ -34,6 +36,62 @@
 + (UIImage *)mlb_fullResolutionImageFromALAsset:(ALAsset *)asset;
 
 + (UIImage *)mlb_fullScreenImageALAsset:(ALAsset *)asset;
+
+/**
+ *  生成二维码
+ *
+ *  @param qrString        二维码中带的字符串
+ *  @param scale           缩放, like 5
+ *  @param color           颜色
+ *  @param backgroundColor 背景色
+ *
+ *  @return 二维码
+ */
++ (UIImage *)mlb_generateQRCodeImageWithString:(NSString *)qrString scale:(CGFloat)scale color:(UIColor *)color backgroundColor:(UIColor *)backgroundColor;
+
+/**
+ *  生成条形码
+ *
+ *  @param codeString      条形码中的数字
+ *  @param scale           缩放
+ *  @param color           颜色
+ *  @param backgroundColor 背景色
+ *
+ *  @return 条形码
+ */
++ (UIImage *)mlb_generateBarcodeImageWithString:(NSString *)codeString scale:(CGFloat)scale color:(UIColor *)color backgroundColor:(UIColor *)backgroundColor;
+
+/**
+ *  根据 view 创建 image
+ *
+ *  @param view
+ *
+ *  @return image
+ */
++ (UIImage *)captureView:(UIView *)view;
+
+/**
+ *  加载图片
+ *
+ *  @param name    图片名
+ *  @param isCache 是否缓存
+ *
+ *  @return 图片
+ */
++ (UIImage *)mlb_imageWithNamed:(NSString *)name cache:(BOOL)isCache;
+
+/**
+ *  加载图片
+ *
+ *  @param name    图片名
+ *  @param type    图片类型
+ *  @param isCache 是否缓存
+ *
+ *  @return 图片
+ */
++ (UIImage *)mlb_imageWithNamed:(NSString *)name fileType:(NSString *)type cache:(BOOL)isCache;
+
+#pragma mark - Public Methods
 
 /**
  *  根据给定的大小生成一张图片

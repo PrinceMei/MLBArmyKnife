@@ -18,6 +18,8 @@
 #define CURRENT_LANGUAGE                [[NSLocale preferredLanguages] objectAtIndex:0]
 #define IS_IOS7_OR_LATER                (CURRENT_IOS_VERSION >= 7.0)
 #define IS_IOS8_OR_LATER                (CURRENT_IOS_VERSION >= 8.0)
+#define IS_IOS9_OR_LATER                (CURRENT_IOS_VERSION >= 9.0)
+#define IS_IOS10_OR_LATER               (CURRENT_IOS_VERSION >= 10.0)
 #define STATUSBAR_HEIGHT                [[UIApplication sharedApplication] statusBarFrame].size.height
 #define NAVBAR_HEIGHT                   (44.f + ((SYSTEM_VERSION >= 7) ? STATUSBAR_HEIGHT : 0))
 
@@ -54,12 +56,12 @@
 
 #pragma mark - color / 颜色
 
-#define UIColorFromRGB(rgbValue)        [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1]
-#define ColorWithRGBA(r,g,b,a)          [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
-#define ColorWithWhite(w)               [UIColor colorWithWhite:w alpha:1]
-#define ColorWithWhiteAlpha(w,a)        [UIColor colorWithWhite:w alpha:a]
-#define RGBA(r,g,b,a)                   [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
-#define RGB(r,g,b)                      [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+#define MLBColorFromRGB(rgbValue)        [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1]
+#define MLBColorWithRGBA(r,g,b,a)        [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#define MLBColorWithWhite(w)             [UIColor colorWithWhite:w alpha:1]
+#define MLBColorWithWhiteAlpha(w,a)      [UIColor colorWithWhite:w alpha:a]
+#define MLB_RGBA(r,g,b,a)                [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#define MLB_RGB(r,g,b)                   [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
 
 // 字体
 #pragma mark - font
@@ -67,8 +69,6 @@
 #define FontWithSize(size)              [UIFont systemFontOfSize:size]
 #define ScoreFontWithSize(fontSize)     [UIFont fontWithName:@"Bradley Hand" size:fontSize]
 #define BoldFontWithSize(size)          [UIFont boldSystemFontOfSize:size]
-#define BoldSystemFont(size)            [UIFont boldSystemFontOfSize:size]
-#define systemFont(size)                [UIFont systemFontOfSize:size]
 
 #pragma mark - GCD
 // 单例

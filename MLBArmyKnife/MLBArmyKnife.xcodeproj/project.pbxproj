@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		149267A1976D4653F1458594 /* libPods-MLBArmyKnife.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1222FC610867C027DC6F3451 /* libPods-MLBArmyKnife.a */; };
+		2304691E1D839F03003FDFE4 /* MLBUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2304691D1D839F03003FDFE4 /* MLBUIFactory.m */; };
+		2304692B1D83A0D2003FDFE4 /* img_scan_code_light_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 230469221D83A0D2003FDFE4 /* img_scan_code_light_off.png */; };
+		2304692C1D83A0D2003FDFE4 /* img_scan_code_light_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 230469231D83A0D2003FDFE4 /* img_scan_code_light_on.png */; };
+		2304692D1D83A0D2003FDFE4 /* QRCodeScanLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 230469241D83A0D2003FDFE4 /* QRCodeScanLine.png */; };
+		2304692E1D83A0D2003FDFE4 /* qrcode_found.wav in Resources */ = {isa = PBXBuildFile; fileRef = 230469261D83A0D2003FDFE4 /* qrcode_found.wav */; };
+		2304692F1D83A0D2003FDFE4 /* MLBScanCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2304692A1D83A0D2003FDFE4 /* MLBScanCodeViewController.m */; };
+		2304693E1D83A0DA003FDFE4 /* MLBCircularImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 230469341D83A0DA003FDFE4 /* MLBCircularImageView.m */; };
+		2304693F1D83A0DA003FDFE4 /* MLBDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 230469371D83A0DA003FDFE4 /* MLBDrawingView.m */; };
+		230469401D83A0DA003FDFE4 /* MLBTopImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2304693A1D83A0DA003FDFE4 /* MLBTopImageButton.m */; };
+		230469411D83A0DA003FDFE4 /* MLBTopImageWithPointButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2304693C1D83A0DA003FDFE4 /* MLBTopImageWithPointButton.m */; };
+		230469441D83A296003FDFE4 /* MLBCircularLoaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 230469431D83A296003FDFE4 /* MLBCircularLoaderView.m */; };
+		2304694D1D83A36A003FDFE4 /* MLBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230469471D83A36A003FDFE4 /* MLBBaseViewController.m */; };
+		2304694E1D83A36A003FDFE4 /* MLBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230469491D83A36A003FDFE4 /* MLBNavigationController.m */; };
+		2304694F1D83A36A003FDFE4 /* MLBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2304694C1D83A36A003FDFE4 /* MLBTabBarController.m */; };
+		230469511D83A4D4003FDFE4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230469501D83A4D4003FDFE4 /* AVFoundation.framework */; };
+		230469531D83A4DA003FDFE4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230469521D83A4DA003FDFE4 /* AudioToolbox.framework */; };
+		230469551D83A4E4003FDFE4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230469541D83A4E4003FDFE4 /* MobileCoreServices.framework */; };
+		230469581D83ABF1003FDFE4 /* UINavigationController+MLBNavigationShouldPopExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 230469571D83ABF1003FDFE4 /* UINavigationController+MLBNavigationShouldPopExtention.m */; };
+		2304695B1D83AC54003FDFE4 /* NSDecimalNumber+MLBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2304695A1D83AC54003FDFE4 /* NSDecimalNumber+MLBUtilities.m */; };
+		2304695E1D83ACE4003FDFE4 /* NSTimer+MLBBlocksSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2304695D1D83ACE4003FDFE4 /* NSTimer+MLBBlocksSupport.m */; };
+		230469631D83AE78003FDFE4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 230469621D83AE78003FDFE4 /* MBProgressHUD.m */; };
+		230469661D83AEA5003FDFE4 /* UIView+MLBShowHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 230469651D83AEA5003FDFE4 /* UIView+MLBShowHUD.m */; };
+		230469691D83AF97003FDFE4 /* NSArray+MLBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 230469681D83AF97003FDFE4 /* NSArray+MLBUtilities.m */; };
+		2304696B1D83B3F9003FDFE4 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2304696A1D83B3F9003FDFE4 /* Photos.framework */; };
 		23AF69D31CC481B400A48DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF69D21CC481B400A48DDC /* main.m */; };
 		23AF69D61CC481B400A48DDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF69D51CC481B400A48DDC /* AppDelegate.m */; };
 		23AF69D91CC481B400A48DDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF69D81CC481B400A48DDC /* ViewController.m */; };
@@ -21,6 +46,10 @@
 		23AF6A121CC4822300A48DDC /* MLBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF6A0E1CC4822300A48DDC /* MLBUtilities.m */; };
 		23AF6A161CC48BE000A48DDC /* UIView+MLBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF6A151CC48BE000A48DDC /* UIView+MLBUtilities.m */; };
 		23AF6A191CC48CB900A48DDC /* UIImageView+MLBSDImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF6A181CC48CB900A48DDC /* UIImageView+MLBSDImageLoader.m */; };
+		23AF6A1D1CC48F5800A48DDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AF6A1C1CC48F5800A48DDC /* CoreGraphics.framework */; };
+		23AF6A1F1CC48F5E00A48DDC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AF6A1E1CC48F5E00A48DDC /* CoreLocation.framework */; };
+		23AF6A211CC48F6300A48DDC /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AF6A201CC48F6300A48DDC /* ImageIO.framework */; };
+		23AF6A231CC493B400A48DDC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AF6A221CC493B300A48DDC /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +70,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1222FC610867C027DC6F3451 /* libPods-MLBArmyKnife.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MLBArmyKnife.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2304691B1D839D06003FDFE4 /* MLBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBConstants.h; sourceTree = "<group>"; };
+		2304691C1D839F03003FDFE4 /* MLBUIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBUIFactory.h; sourceTree = "<group>"; };
+		2304691D1D839F03003FDFE4 /* MLBUIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBUIFactory.m; sourceTree = "<group>"; };
+		230469221D83A0D2003FDFE4 /* img_scan_code_light_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_scan_code_light_off.png; sourceTree = "<group>"; };
+		230469231D83A0D2003FDFE4 /* img_scan_code_light_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_scan_code_light_on.png; sourceTree = "<group>"; };
+		230469241D83A0D2003FDFE4 /* QRCodeScanLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QRCodeScanLine.png; sourceTree = "<group>"; };
+		230469261D83A0D2003FDFE4 /* qrcode_found.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = qrcode_found.wav; sourceTree = "<group>"; };
+		230469291D83A0D2003FDFE4 /* MLBScanCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBScanCodeViewController.h; sourceTree = "<group>"; };
+		2304692A1D83A0D2003FDFE4 /* MLBScanCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBScanCodeViewController.m; sourceTree = "<group>"; };
+		230469331D83A0DA003FDFE4 /* MLBCircularImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBCircularImageView.h; sourceTree = "<group>"; };
+		230469341D83A0DA003FDFE4 /* MLBCircularImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBCircularImageView.m; sourceTree = "<group>"; };
+		230469361D83A0DA003FDFE4 /* MLBDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBDrawingView.h; sourceTree = "<group>"; };
+		230469371D83A0DA003FDFE4 /* MLBDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBDrawingView.m; sourceTree = "<group>"; };
+		230469391D83A0DA003FDFE4 /* MLBTopImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBTopImageButton.h; sourceTree = "<group>"; };
+		2304693A1D83A0DA003FDFE4 /* MLBTopImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBTopImageButton.m; sourceTree = "<group>"; };
+		2304693B1D83A0DA003FDFE4 /* MLBTopImageWithPointButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBTopImageWithPointButton.h; sourceTree = "<group>"; };
+		2304693C1D83A0DA003FDFE4 /* MLBTopImageWithPointButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBTopImageWithPointButton.m; sourceTree = "<group>"; };
+		230469421D83A296003FDFE4 /* MLBCircularLoaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBCircularLoaderView.h; sourceTree = "<group>"; };
+		230469431D83A296003FDFE4 /* MLBCircularLoaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBCircularLoaderView.m; sourceTree = "<group>"; };
+		230469461D83A36A003FDFE4 /* MLBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBBaseViewController.h; sourceTree = "<group>"; };
+		230469471D83A36A003FDFE4 /* MLBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBBaseViewController.m; sourceTree = "<group>"; };
+		230469481D83A36A003FDFE4 /* MLBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBNavigationController.h; sourceTree = "<group>"; };
+		230469491D83A36A003FDFE4 /* MLBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBNavigationController.m; sourceTree = "<group>"; };
+		2304694B1D83A36A003FDFE4 /* MLBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBTabBarController.h; sourceTree = "<group>"; };
+		2304694C1D83A36A003FDFE4 /* MLBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBTabBarController.m; sourceTree = "<group>"; };
+		230469501D83A4D4003FDFE4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		230469521D83A4DA003FDFE4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		230469541D83A4E4003FDFE4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		230469561D83ABF1003FDFE4 /* UINavigationController+MLBNavigationShouldPopExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MLBNavigationShouldPopExtention.h"; sourceTree = "<group>"; };
+		230469571D83ABF1003FDFE4 /* UINavigationController+MLBNavigationShouldPopExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MLBNavigationShouldPopExtention.m"; sourceTree = "<group>"; };
+		230469591D83AC54003FDFE4 /* NSDecimalNumber+MLBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+MLBUtilities.h"; sourceTree = "<group>"; };
+		2304695A1D83AC54003FDFE4 /* NSDecimalNumber+MLBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+MLBUtilities.m"; sourceTree = "<group>"; };
+		2304695C1D83ACE4003FDFE4 /* NSTimer+MLBBlocksSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+MLBBlocksSupport.h"; sourceTree = "<group>"; };
+		2304695D1D83ACE4003FDFE4 /* NSTimer+MLBBlocksSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+MLBBlocksSupport.m"; sourceTree = "<group>"; };
+		230469611D83AE78003FDFE4 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		230469621D83AE78003FDFE4 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		230469641D83AEA5003FDFE4 /* UIView+MLBShowHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MLBShowHUD.h"; sourceTree = "<group>"; };
+		230469651D83AEA5003FDFE4 /* UIView+MLBShowHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLBShowHUD.m"; sourceTree = "<group>"; };
+		230469671D83AF97003FDFE4 /* NSArray+MLBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MLBUtilities.h"; sourceTree = "<group>"; };
+		230469681D83AF97003FDFE4 /* NSArray+MLBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MLBUtilities.m"; sourceTree = "<group>"; };
+		2304696A1D83B3F9003FDFE4 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		23AF69CE1CC481B400A48DDC /* MLBArmyKnife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLBArmyKnife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23AF69D21CC481B400A48DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23AF69D41CC481B400A48DDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +143,12 @@
 		23AF6A171CC48CB900A48DDC /* UIImageView+MLBSDImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MLBSDImageLoader.h"; sourceTree = "<group>"; };
 		23AF6A181CC48CB900A48DDC /* UIImageView+MLBSDImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MLBSDImageLoader.m"; sourceTree = "<group>"; };
 		23AF6A1A1CC48D6E00A48DDC /* MLBArmyKnife.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBArmyKnife.pch; sourceTree = "<group>"; };
+		23AF6A1C1CC48F5800A48DDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		23AF6A1E1CC48F5E00A48DDC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		23AF6A201CC48F6300A48DDC /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		23AF6A221CC493B300A48DDC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		666A2FA353D62B72F67E0CCE /* Pods-MLBArmyKnife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLBArmyKnife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLBArmyKnife/Pods-MLBArmyKnife.debug.xcconfig"; sourceTree = "<group>"; };
+		C8859B76E8F8E28AB1D678E0 /* Pods-MLBArmyKnife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLBArmyKnife.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLBArmyKnife/Pods-MLBArmyKnife.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +156,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2304696B1D83B3F9003FDFE4 /* Photos.framework in Frameworks */,
+				230469551D83A4E4003FDFE4 /* MobileCoreServices.framework in Frameworks */,
+				230469531D83A4DA003FDFE4 /* AudioToolbox.framework in Frameworks */,
+				230469511D83A4D4003FDFE4 /* AVFoundation.framework in Frameworks */,
+				23AF6A231CC493B400A48DDC /* MapKit.framework in Frameworks */,
+				23AF6A211CC48F6300A48DDC /* ImageIO.framework in Frameworks */,
+				23AF6A1F1CC48F5E00A48DDC /* CoreLocation.framework in Frameworks */,
+				23AF6A1D1CC48F5800A48DDC /* CoreGraphics.framework in Frameworks */,
+				149267A1976D4653F1458594 /* libPods-MLBArmyKnife.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +185,130 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2304691F1D839F42003FDFE4 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				230469301D83A0DA003FDFE4 /* MLBCircularImageView */,
+				230469351D83A0DA003FDFE4 /* MLBDrawingView */,
+				230469381D83A0DA003FDFE4 /* MLBTopImageButton */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		230469201D83A0D2003FDFE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				230469211D83A0D2003FDFE4 /* Images */,
+				230469251D83A0D2003FDFE4 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		230469211D83A0D2003FDFE4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				230469221D83A0D2003FDFE4 /* img_scan_code_light_off.png */,
+				230469231D83A0D2003FDFE4 /* img_scan_code_light_on.png */,
+				230469241D83A0D2003FDFE4 /* QRCodeScanLine.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		230469251D83A0D2003FDFE4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				230469261D83A0D2003FDFE4 /* qrcode_found.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		230469271D83A0D2003FDFE4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				230469451D83A36A003FDFE4 /* Base */,
+				2304694A1D83A36A003FDFE4 /* TabBar */,
+				230469281D83A0D2003FDFE4 /* Scan */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		230469281D83A0D2003FDFE4 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				230469291D83A0D2003FDFE4 /* MLBScanCodeViewController.h */,
+				2304692A1D83A0D2003FDFE4 /* MLBScanCodeViewController.m */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		230469301D83A0DA003FDFE4 /* MLBCircularImageView */ = {
+			isa = PBXGroup;
+			children = (
+				230469331D83A0DA003FDFE4 /* MLBCircularImageView.h */,
+				230469341D83A0DA003FDFE4 /* MLBCircularImageView.m */,
+				230469421D83A296003FDFE4 /* MLBCircularLoaderView.h */,
+				230469431D83A296003FDFE4 /* MLBCircularLoaderView.m */,
+			);
+			path = MLBCircularImageView;
+			sourceTree = "<group>";
+		};
+		230469351D83A0DA003FDFE4 /* MLBDrawingView */ = {
+			isa = PBXGroup;
+			children = (
+				230469361D83A0DA003FDFE4 /* MLBDrawingView.h */,
+				230469371D83A0DA003FDFE4 /* MLBDrawingView.m */,
+			);
+			path = MLBDrawingView;
+			sourceTree = "<group>";
+		};
+		230469381D83A0DA003FDFE4 /* MLBTopImageButton */ = {
+			isa = PBXGroup;
+			children = (
+				230469391D83A0DA003FDFE4 /* MLBTopImageButton.h */,
+				2304693A1D83A0DA003FDFE4 /* MLBTopImageButton.m */,
+				2304693B1D83A0DA003FDFE4 /* MLBTopImageWithPointButton.h */,
+				2304693C1D83A0DA003FDFE4 /* MLBTopImageWithPointButton.m */,
+			);
+			path = MLBTopImageButton;
+			sourceTree = "<group>";
+		};
+		230469451D83A36A003FDFE4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				230469461D83A36A003FDFE4 /* MLBBaseViewController.h */,
+				230469471D83A36A003FDFE4 /* MLBBaseViewController.m */,
+				230469481D83A36A003FDFE4 /* MLBNavigationController.h */,
+				230469491D83A36A003FDFE4 /* MLBNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2304694A1D83A36A003FDFE4 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2304694B1D83A36A003FDFE4 /* MLBTabBarController.h */,
+				2304694C1D83A36A003FDFE4 /* MLBTabBarController.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		2304695F1D83AE78003FDFE4 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				230469601D83AE78003FDFE4 /* MBProgressHUD */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		230469601D83AE78003FDFE4 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				230469611D83AE78003FDFE4 /* MBProgressHUD.h */,
+				230469621D83AE78003FDFE4 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		23AF69C51CC481B400A48DDC = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +316,8 @@
 				23AF69EA1CC481B400A48DDC /* MLBArmyKnifeTests */,
 				23AF69F51CC481B400A48DDC /* MLBArmyKnifeUITests */,
 				23AF69CF1CC481B400A48DDC /* Products */,
+				23AF6A1B1CC48F3E00A48DDC /* Frameworks */,
+				A0DD3A3EF0A5843DECBBDB11 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +334,7 @@
 		23AF69D01CC481B400A48DDC /* MLBArmyKnife */ = {
 			isa = PBXGroup;
 			children = (
+				2304695F1D83AE78003FDFE4 /* Lib */,
 				23AF6A041CC4822300A48DDC /* MLBArmyKnife */,
 				23AF69D41CC481B400A48DDC /* AppDelegate.h */,
 				23AF69D51CC481B400A48DDC /* AppDelegate.m */,
@@ -166,11 +379,17 @@
 		23AF6A041CC4822300A48DDC /* MLBArmyKnife */ = {
 			isa = PBXGroup;
 			children = (
+				230469201D83A0D2003FDFE4 /* Resources */,
+				230469271D83A0D2003FDFE4 /* ViewController */,
+				2304691F1D839F42003FDFE4 /* CustomView */,
 				23AF6A051CC4822300A48DDC /* Category */,
 				23AF6A0C1CC4822300A48DDC /* MLBArmyKnife.h */,
 				23AF6A0D1CC4822300A48DDC /* MLBUtilities.h */,
 				23AF6A0E1CC4822300A48DDC /* MLBUtilities.m */,
 				23AF6A131CC483BA00A48DDC /* MLBMacros.h */,
+				2304691B1D839D06003FDFE4 /* MLBConstants.h */,
+				2304691C1D839F03003FDFE4 /* MLBUIFactory.h */,
+				2304691D1D839F03003FDFE4 /* MLBUIFactory.m */,
 			);
 			path = MLBArmyKnife;
 			sourceTree = "<group>";
@@ -188,8 +407,43 @@
 				23AF6A151CC48BE000A48DDC /* UIView+MLBUtilities.m */,
 				23AF6A171CC48CB900A48DDC /* UIImageView+MLBSDImageLoader.h */,
 				23AF6A181CC48CB900A48DDC /* UIImageView+MLBSDImageLoader.m */,
+				230469561D83ABF1003FDFE4 /* UINavigationController+MLBNavigationShouldPopExtention.h */,
+				230469571D83ABF1003FDFE4 /* UINavigationController+MLBNavigationShouldPopExtention.m */,
+				230469591D83AC54003FDFE4 /* NSDecimalNumber+MLBUtilities.h */,
+				2304695A1D83AC54003FDFE4 /* NSDecimalNumber+MLBUtilities.m */,
+				2304695C1D83ACE4003FDFE4 /* NSTimer+MLBBlocksSupport.h */,
+				2304695D1D83ACE4003FDFE4 /* NSTimer+MLBBlocksSupport.m */,
+				230469641D83AEA5003FDFE4 /* UIView+MLBShowHUD.h */,
+				230469651D83AEA5003FDFE4 /* UIView+MLBShowHUD.m */,
+				230469671D83AF97003FDFE4 /* NSArray+MLBUtilities.h */,
+				230469681D83AF97003FDFE4 /* NSArray+MLBUtilities.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		23AF6A1B1CC48F3E00A48DDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2304696A1D83B3F9003FDFE4 /* Photos.framework */,
+				230469541D83A4E4003FDFE4 /* MobileCoreServices.framework */,
+				230469521D83A4DA003FDFE4 /* AudioToolbox.framework */,
+				230469501D83A4D4003FDFE4 /* AVFoundation.framework */,
+				23AF6A221CC493B300A48DDC /* MapKit.framework */,
+				23AF6A201CC48F6300A48DDC /* ImageIO.framework */,
+				23AF6A1E1CC48F5E00A48DDC /* CoreLocation.framework */,
+				23AF6A1C1CC48F5800A48DDC /* CoreGraphics.framework */,
+				1222FC610867C027DC6F3451 /* libPods-MLBArmyKnife.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0DD3A3EF0A5843DECBBDB11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				666A2FA353D62B72F67E0CCE /* Pods-MLBArmyKnife.debug.xcconfig */,
+				C8859B76E8F8E28AB1D678E0 /* Pods-MLBArmyKnife.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +453,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23AF69FB1CC481B400A48DDC /* Build configuration list for PBXNativeTarget "MLBArmyKnife" */;
 			buildPhases = (
+				F488668102DB50AC8DDEEFE1 /* Check Pods Manifest.lock */,
 				23AF69CA1CC481B400A48DDC /* Sources */,
 				23AF69CB1CC481B400A48DDC /* Frameworks */,
 				23AF69CC1CC481B400A48DDC /* Resources */,
+				E525DCFF359590450026618D /* Embed Pods Frameworks */,
+				9298CBD0046C1403A12575D5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -295,8 +552,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2304692C1D83A0D2003FDFE4 /* img_scan_code_light_on.png in Resources */,
 				23AF69E11CC481B400A48DDC /* LaunchScreen.storyboard in Resources */,
 				23AF69DE1CC481B400A48DDC /* Assets.xcassets in Resources */,
+				2304692B1D83A0D2003FDFE4 /* img_scan_code_light_off.png in Resources */,
+				2304692D1D83A0D2003FDFE4 /* QRCodeScanLine.png in Resources */,
+				2304692E1D83A0D2003FDFE4 /* qrcode_found.wav in Resources */,
 				23AF69DC1CC481B400A48DDC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,20 +578,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9298CBD0046C1403A12575D5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MLBArmyKnife/Pods-MLBArmyKnife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E525DCFF359590450026618D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MLBArmyKnife/Pods-MLBArmyKnife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F488668102DB50AC8DDEEFE1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23AF69CA1CC481B400A48DDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				230469401D83A0DA003FDFE4 /* MLBTopImageButton.m in Sources */,
+				2304693E1D83A0DA003FDFE4 /* MLBCircularImageView.m in Sources */,
+				230469631D83AE78003FDFE4 /* MBProgressHUD.m in Sources */,
 				23AF6A101CC4822300A48DDC /* UIColor+MLBUtilities.m in Sources */,
 				23AF6A121CC4822300A48DDC /* MLBUtilities.m in Sources */,
+				2304693F1D83A0DA003FDFE4 /* MLBDrawingView.m in Sources */,
+				2304694E1D83A36A003FDFE4 /* MLBNavigationController.m in Sources */,
+				2304695B1D83AC54003FDFE4 /* NSDecimalNumber+MLBUtilities.m in Sources */,
+				2304691E1D839F03003FDFE4 /* MLBUIFactory.m in Sources */,
 				23AF6A0F1CC4822300A48DDC /* NSString+MLBUtilities.m in Sources */,
+				2304694D1D83A36A003FDFE4 /* MLBBaseViewController.m in Sources */,
 				23AF6A161CC48BE000A48DDC /* UIView+MLBUtilities.m in Sources */,
 				23AF6A111CC4822300A48DDC /* UIImage+MLBUtilities.m in Sources */,
+				230469411D83A0DA003FDFE4 /* MLBTopImageWithPointButton.m in Sources */,
+				2304692F1D83A0D2003FDFE4 /* MLBScanCodeViewController.m in Sources */,
+				230469661D83AEA5003FDFE4 /* UIView+MLBShowHUD.m in Sources */,
+				2304694F1D83A36A003FDFE4 /* MLBTabBarController.m in Sources */,
+				230469691D83AF97003FDFE4 /* NSArray+MLBUtilities.m in Sources */,
 				23AF6A191CC48CB900A48DDC /* UIImageView+MLBSDImageLoader.m in Sources */,
 				23AF69D91CC481B400A48DDC /* ViewController.m in Sources */,
+				230469441D83A296003FDFE4 /* MLBCircularLoaderView.m in Sources */,
 				23AF69D61CC481B400A48DDC /* AppDelegate.m in Sources */,
 				23AF69D31CC481B400A48DDC /* main.m in Sources */,
+				2304695E1D83ACE4003FDFE4 /* NSTimer+MLBBlocksSupport.m in Sources */,
+				230469581D83ABF1003FDFE4 /* UINavigationController+MLBNavigationShouldPopExtention.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +794,7 @@
 		};
 		23AF69FC1CC481B400A48DDC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666A2FA353D62B72F67E0CCE /* Pods-MLBArmyKnife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MLBArmyKnife/MLBArmyKnife.pch";
@@ -481,6 +807,7 @@
 		};
 		23AF69FD1CC481B400A48DDC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8859B76E8F8E28AB1D678E0 /* Pods-MLBArmyKnife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MLBArmyKnife/MLBArmyKnife.pch";
@@ -556,6 +883,7 @@
 				23AF69FD1CC481B400A48DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23AF69FE1CC481B400A48DDC /* Build configuration list for PBXNativeTarget "MLBArmyKnifeTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +892,7 @@
 				23AF6A001CC481B400A48DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23AF6A011CC481B400A48DDC /* Build configuration list for PBXNativeTarget "MLBArmyKnifeUITests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +901,7 @@
 				23AF6A031CC481B400A48DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

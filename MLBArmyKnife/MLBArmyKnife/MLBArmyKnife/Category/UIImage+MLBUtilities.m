@@ -10,6 +10,8 @@
 
 @implementation UIImage (MLBUtilities)
 
+#pragma mark - Class Methods
+
 /**
  *  根据给定的颜色生成一张图片
  *
@@ -57,6 +59,167 @@
     
     return img;
 }
+
+/**
+ *  生成二维码
+ *
+ *  @param qrString        二维码中带的字符串
+ *  @param scale           缩放, like 5
+ *  @param color           颜色
+ *  @param backgroundColor 背景色
+ *
+ *  @return 二维码
+ */
++ (UIImage *)mlb_generateQRCodeImageWithString:(NSString *)qrString scale:(CGFloat)scale color:(UIColor *)color backgroundColor:(UIColor *)backgroundColor {
+    CIFilter *qrFilter = [CIFilter filterWithName:@"CIQRCodeGenerator"];
+    if (!qrFilter) {
+        NSLog(@"Error: Could not load filter");
+        return nil;
+    }
+    
+    NSData *stringData = [qrString dataUsingEncoding:NSUTF8StringEncoding];//NSISOLatin1StringEncoding
+    [qrFilter setValue:stringData forKey:@"inputMessage"];
+    
+    CIFilter *colorQRFilter = [CIFilter filterWithName:@"CIFalseColor"];
+    [colorQRFilter setValue:qrFilter.outputImage forKey:@"inputImage"];
+    
+    // 二维码颜色
+    if (color == nil) {
+        color = [UIColor blackColor];
+    }
+    
+    if (backgroundColor == nil) {
+        backgroundColor = [UIColor whiteColor];
+    }
+    
+    [colorQRFilter setValue:[CIColor colorWithCGColor:color.CGColor] forKey:@"inputColor0"];
+    // 背景颜色
+    [colorQRFilter setValue:[CIColor colorWithCGColor:backgroundColor.CGColor] forKey:@"inputColor1"];
+    
+    CIImage *ciImage = colorQRFilter.outputImage;
+    
+    UIImage *qrCodeImage = [self createNonInterpolatedUIImageFromCIImage:ciImage withScale:scale * [UIScreen mainScreen].scale];
+    
+    return qrCodeImage;
+}
+
+/**
+ *  生成条形码
+ *
+ *  @param codeString      条形码中的数字
+ *  @param scale           缩放
+ *  @param color           颜色
+ *  @param backgroundColor 背景色
+ *
+ *  @return 条形码
+ */
++ (UIImage *)mlb_generateBarcodeImageWithString:(NSString *)codeString scale:(CGFloat)scale color:(UIColor *)color backgroundColor:(UIColor *)backgroundColor {
+    CIFilter *filter = [CIFilter filterWithName:@"CICode128BarcodeGenerator"];
+    if (!filter) {
+        NSLog(@"Error: Could not load filter");
+        return nil;
+    }
+    
+    NSData *data = [codeString dataUsingEncoding:NSISOLatin1StringEncoding allowLossyConversion:false];
+    [filter setValue:data forKey:@"inputMessage"];
+    
+    CIFilter * colorFilter = [CIFilter filterWithName:@"CIFalseColor"];
+    [colorFilter setValue:filter.outputImage forKey:@"inputImage"];
+    
+    // 条形码颜色
+    if (color == nil) {
+        color = [UIColor blackColor];
+    }
+    
+    if (backgroundColor == nil) {
+        backgroundColor = [UIColor whiteColor];
+    }
+    
+    [colorFilter setValue:[CIColor colorWithCGColor:color.CGColor] forKey:@"inputColor0"];
+    // 背景颜色
+    [colorFilter setValue:[CIColor colorWithCGColor:backgroundColor.CGColor] forKey:@"inputColor1"];
+    
+    CIImage *ciImage = colorFilter.outputImage;
+    
+    UIImage *barCodeImage = [self createNonInterpolatedUIImageFromCIImage:ciImage withScale:scale * [UIScreen mainScreen].scale];
+    
+    return barCodeImage;
+}
+
++ (UIImage *)createNonInterpolatedUIImageFromCIImage:(CIImage *)image withScale:(CGFloat)scale {
+    // Render the CIImage into a CGImage
+    CGImageRef cgImage = [[CIContext contextWithOptions:nil] createCGImage:image fromRect:image.extent];
+    // Now we'll rescale using CoreGraphics
+    UIGraphicsBeginImageContext(CGSizeMake(image.extent.size.width * scale, image.extent.size.width * scale));
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    // We don't want to interpolate (since we've got a pixel-correct image)
+    CGContextSetInterpolationQuality(context, kCGInterpolationNone);
+    CGContextDrawImage(context, CGContextGetClipBoundingBox(context), cgImage);
+    // Get the image out
+    UIImage *scaledImage = UIGraphicsGetImageFromCurrentImageContext();
+    // Tidy up
+    UIGraphicsEndImageContext();
+    CGImageRelease(cgImage);
+    
+    return scaledImage;
+}
+
+/**
+ *  根据 view 创建 image
+ *
+ *  @param view
+ *
+ *  @return image
+ */
++ (UIImage *)captureView:(UIView *)view {
+	// hide controls if needed
+	CGRect rect = view.bounds;
+	
+	UIGraphicsBeginImageContext(rect.size);
+	CGContextRef context = UIGraphicsGetCurrentContext();
+	CGContextSetShouldAntialias(context, true);
+	CGContextSetAllowsAntialiasing(context, true);
+	
+	[view.layer renderInContext:context];
+	
+	UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
+	UIGraphicsEndImageContext();
+	
+	return img;
+}
+
+/**
+ *  加载图片
+ *
+ *  @param name    图片名
+ *  @param isCache 是否缓存
+ *
+ *  @return 图片
+ */
++ (UIImage *)mlb_imageWithNamed:(NSString *)name cache:(BOOL)isCache {
+	return [UIImage mlb_imageWithNamed:name fileType:@"png" cache:isCache];
+}
+
+/**
+ *  加载图片
+ *
+ *  @param name    图片名
+ *  @param type    图片类型
+ *  @param isCache 是否缓存
+ *
+ *  @return 图片
+ */
++ (UIImage *)mlb_imageWithNamed:(NSString *)name fileType:(NSString *)type cache:(BOOL)isCache {
+	if (isCache) {
+		return [UIImage imageNamed:name];
+	} else {
+		NSString *pathOfImage = [[NSBundle mainBundle] pathForResource:name ofType:type];
+		
+		return [UIImage imageWithContentsOfFile:pathOfImage];
+	}
+}
+
+#pragma mark - Public Methods
 
 /**
  *  根据给定的大小生成一张图片
