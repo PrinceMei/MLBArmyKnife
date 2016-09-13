@@ -167,25 +167,33 @@
 /**
  *  根据 view 创建 image
  *
- *  @param view
+ *  @param view   view
+ *  @param frame  frame
+ *  @param insets insets
  *
  *  @return image
  */
-+ (UIImage *)captureView:(UIView *)view {
-	// hide controls if needed
-	CGRect rect = view.bounds;
-	
-	UIGraphicsBeginImageContext(rect.size);
++ (UIImage *)renderImageFromView:(UIView *)view withRect:(CGRect)frame transparentInsets:(UIEdgeInsets)insets {
+	CGSize imageSizeWithBorder = CGSizeMake(frame.size.width + insets.left + insets.right, frame.size.height + insets.top + insets.bottom);
+	// Create a new context of the desired size to render the image
+	UIGraphicsBeginImageContextWithOptions(imageSizeWithBorder, NO, 0);
 	CGContextRef context = UIGraphicsGetCurrentContext();
-	CGContextSetShouldAntialias(context, true);
-	CGContextSetAllowsAntialiasing(context, true);
 	
-	[view.layer renderInContext:context];
+	// Clip the context to the portion of the view we will draw
+	CGContextClipToRect(context, (CGRect){{insets.left, insets.top}, frame.size});
+	// Translate it, to the desired position
+	CGContextTranslateCTM(context, -frame.origin.x + insets.left, -frame.origin.y + insets.top);
 	
-	UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
+	// Render the view as image
+	[view.layer renderInContext:UIGraphicsGetCurrentContext()];
+	
+	// Fetch the image
+	UIImage *renderedImage = UIGraphicsGetImageFromCurrentImageContext();
+	
+	// Cleanup
 	UIGraphicsEndImageContext();
 	
-	return img;
+	return renderedImage;
 }
 
 /**

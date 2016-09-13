@@ -7,6 +7,7 @@
 //
 
 #import "UIScrollView+MLBUtilities.h"
+#import <MJRefresh/MJRefresh.h>
 
 @implementation UIScrollView (MLBUtilities)
 

@@ -64,11 +64,13 @@
 /**
  *  根据 view 创建 image
  *
- *  @param view
+ *  @param view   view
+ *  @param frame  frame
+ *  @param insets insets
  *
  *  @return image
  */
-+ (UIImage *)captureView:(UIView *)view;
++ (UIImage *)renderImageFromView:(UIView *)view withRect:(CGRect)frame transparentInsets:(UIEdgeInsets)insets;
 
 /**
  *  加载图片

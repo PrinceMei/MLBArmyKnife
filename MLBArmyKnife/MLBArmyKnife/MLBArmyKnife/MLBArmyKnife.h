@@ -22,6 +22,7 @@
 #import "NSTimer+MLBBlocksSupport.h"
 #import "UIView+MLBShowHUD.h"
 #import "NSArray+MLBUtilities.h"
+#import "UIScrollView+MLBUtilities.h"
 
 #pragma mark - Other
 

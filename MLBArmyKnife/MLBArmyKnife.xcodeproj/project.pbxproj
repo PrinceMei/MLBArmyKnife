@@ -32,6 +32,7 @@
 		230469661D83AEA5003FDFE4 /* UIView+MLBShowHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 230469651D83AEA5003FDFE4 /* UIView+MLBShowHUD.m */; };
 		230469691D83AF97003FDFE4 /* NSArray+MLBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 230469681D83AF97003FDFE4 /* NSArray+MLBUtilities.m */; };
 		2304696B1D83B3F9003FDFE4 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2304696A1D83B3F9003FDFE4 /* Photos.framework */; };
+		23595CED1D84E31600C07CAA /* UIScrollView+MLBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 23595CEC1D84E31600C07CAA /* UIScrollView+MLBUtilities.m */; };
 		23AF69D31CC481B400A48DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF69D21CC481B400A48DDC /* main.m */; };
 		23AF69D61CC481B400A48DDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF69D51CC481B400A48DDC /* AppDelegate.m */; };
 		23AF69D91CC481B400A48DDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF69D81CC481B400A48DDC /* ViewController.m */; };
@@ -112,6 +113,8 @@
 		230469671D83AF97003FDFE4 /* NSArray+MLBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MLBUtilities.h"; sourceTree = "<group>"; };
 		230469681D83AF97003FDFE4 /* NSArray+MLBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MLBUtilities.m"; sourceTree = "<group>"; };
 		2304696A1D83B3F9003FDFE4 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		23595CEB1D84E31600C07CAA /* UIScrollView+MLBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MLBUtilities.h"; sourceTree = "<group>"; };
+		23595CEC1D84E31600C07CAA /* UIScrollView+MLBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MLBUtilities.m"; sourceTree = "<group>"; };
 		23AF69CE1CC481B400A48DDC /* MLBArmyKnife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLBArmyKnife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23AF69D21CC481B400A48DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23AF69D41CC481B400A48DDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -417,6 +420,8 @@
 				230469651D83AEA5003FDFE4 /* UIView+MLBShowHUD.m */,
 				230469671D83AF97003FDFE4 /* NSArray+MLBUtilities.h */,
 				230469681D83AF97003FDFE4 /* NSArray+MLBUtilities.m */,
+				23595CEB1D84E31600C07CAA /* UIScrollView+MLBUtilities.h */,
+				23595CEC1D84E31600C07CAA /* UIScrollView+MLBUtilities.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -631,6 +636,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23595CED1D84E31600C07CAA /* UIScrollView+MLBUtilities.m in Sources */,
 				230469401D83A0DA003FDFE4 /* MLBTopImageButton.m in Sources */,
 				2304693E1D83A0DA003FDFE4 /* MLBCircularImageView.m in Sources */,
 				230469631D83AE78003FDFE4 /* MBProgressHUD.m in Sources */,
